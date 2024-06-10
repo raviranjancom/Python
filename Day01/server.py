@@ -2,7 +2,7 @@ import socket
 import threading
 
 PORT=5050
-SERVER=server=socket.gethostbyname(socket.gethostname())    ### IPV4
+SERVER=socket.gethostbyname(socket.gethostname())    ### IPV4
 ADDR=(SERVER,PORT)
 HEADER=8
 FORMAT='utf-8'
